@@ -1,14 +1,16 @@
 // TYPOGRAPHY ================================================
-$base-font: 'source-sans-pro', sans-serif;
+$base-font: 'Roboto', sans-serif;
 $heading-font: $base-font;
 $caption-font: $base-font;
 $code-font: 'source-code-pro', monospace;
-$alt-font: 'volkhov', serif;
+$alt-font: 'Roboto', sans-serif;
 
 $doc-font-size: 16;
 $doc-line-height: 24;
 
-$border-radius: 3px;
+$border-radius: 2px;
+
+$font-weight-light: 100;
 
 
 // set-up the body font-size / line-height
@@ -20,22 +22,22 @@ body {
 
 // COLORS =====================================================
 $body-color         : #fff;
-$text-color         : #222;
+$text-color         : #40364d;
 $base-color         : #343434;    
 $comp-color         : spin($base-color, 180); 
-$border-color       : #ddd;
+$border-color       : #9fc7cd;
 $white              : #fff;
-$black              : #000;
-$accent-color       : $black;
-$link-color         : #222;
+$black              : #40364d;
+$accent-color       : #40364d;
+$link-color         : $text-color;
 
 $table-border-color           : $border-color;
 $table-border                 : 1px solid $table-border-color;
 $table-background             : $body-color;
 $table-header-color           : lighten($table-background, 10);
-$table-hover-color            : darken($table-background, 2);
-$table-stripe-color           : darken($table-background, 4);
-$table-stripe-color-hover     : darken($table-stripe-color, 5);
+$table-hover-color            : lighten($table-background, 2);
+$table-stripe-color           : lighten($table-background, 4);
+$table-stripe-color-hover     : lighten($table-stripe-color, 3);
 
 
 // MEDIA QUERIES ==============================================
